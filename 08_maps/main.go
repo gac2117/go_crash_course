@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	// Define map
+	// Declare map
 	emails := make(map[string]string)
 
 	// Assign key and values
@@ -11,7 +11,7 @@ func main() {
 	emails["Sharon"] = "sharon@email.com"
 	emails["Grace"] = "grace@email.com"
 
-	// Declare map and add kv
+	// Declare map and assign kv
 	greetings := map[string]string{"Hello": "World", "Goodbye": "Land"}
 
 	fmt.Println(emails, greetings)
