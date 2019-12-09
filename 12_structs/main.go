@@ -5,7 +5,7 @@ import (
 	"strconv"
 )
 
-// Define person struct
+// define person struct
 type Person struct {
 	firstName, lastName, city, gender string
 	// lastName  string
